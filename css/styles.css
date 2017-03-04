@@ -1,0 +1,23 @@
+.greyRound {
+    border-radius: 30px;
+    border: 2px solid #a9a9a9;
+
+}
+
+.mediaIcon {
+    height: 60px;
+    width: 60px;
+}
+
+.iconToCenter {
+    padding:13px;
+}
+
+.intro{
+    display:table;
+    height:auto;
+    padding:100px 0;
+    text-align:center;
+    color:#fff;
+    background:url(../assets/bg.jpg);
+}
