@@ -1,3 +1,40 @@
+p, h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.merc-contact {
+    background-color:#f88379
+}
+
+.album {
+    margin: 0 auto;
+}
+
+.ui-ux {
+    background-color: #a2ecf6
+}
+
+.ui-ux > p {
+    color: steelblue;
+}
+
+.merc-nav {
+    background-color: white;
+
+}
+
+.intro-text > p {
+    font-size: 18px;
+}
+
+.lastfmbg > h2 {
+    color: white;
+}
+
+.lastfmbg > p {
+    color: white;
+}
+
 .greyRound {
     border-radius: 30px;
     border: 2px solid #a9a9a9;
@@ -13,11 +50,32 @@
     padding:13px;
 }
 
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .intro{
-    display:table;
-    height:auto;
-    padding:100px 0;
+    padding-top:0%;
+    display: grid;
     text-align:center;
-    color:#fff;
+    color: #fff;
+    min-height: 100%;
+    height:auto !important;
+    width:100%;
     background:url(../assets/bg.jpg);
+}
+
+.lastfmbg {
+    background-color: #b90000;
+    height:100%;
+}
+
+.full-page{
+    min-height:100%
+}
+
+.white-text {
+    color: #ffffff;
 }
